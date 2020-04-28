@@ -1,0 +1,17 @@
+#earth{
+background-color: aquamarine;
+float: left;
+width: 50%;
+height: 50px;
+}
+
+#moon{
+    background-color: blueviolet;
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+#earthHeather{
+    
+}
