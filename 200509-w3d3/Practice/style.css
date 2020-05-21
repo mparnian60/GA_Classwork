@@ -1,0 +1,15 @@
+.display-4 {
+    text-align: center;
+}
+
+.style {
+    text-align: center;
+}
+
+#startGameBtn {
+    margin: 0 60px 0 60px;
+}
+
+#actorSelection{
+    text-align: center;
+}

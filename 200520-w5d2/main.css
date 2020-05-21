@@ -1,0 +1,54 @@
+/* add yellow bowrder to all elements */
+* { 
+    border: 1px solid gold
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: #e9ece5;
+    width: 90%;
+    /* margin: auto; */
+    /* overflow: scroll; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.flex-container .card:first-child{
+/* this target all childs (cards) of flex-container */
+flex-grow: 2;
+}
+
+.flex-container .card:nth-child(6){
+    flex-basis: 100%; /* occupy the whole wisth*/
+}
+
+.flex-container .card:nth-child(6){
+    flex-shrink: 2;
+    order: -1;
+}
+
+.card {
+    color: white;
+    background-color: #b3c2bf;
+    padding: .5em;
+    margin: .3em .3em;
+    /* flex-basis: 1em; */
+    text-align: center;
+}
+
+@media (max-width: 600px){
+
+    .card{
+        flex-basis: 100%; /* this rule will apply for display width of less than 600*/
+    }
+}
+
+.selected {
+    background-color:  #fae596;
+    color: #40A69A;
+    /* flex-grow: 2; */
+    /* order: -1; */
+  }

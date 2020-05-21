@@ -1,0 +1,19 @@
+#topSection{
+background-color: #0b3d9a;
+color: white;
+}
+
+#firstBtn {
+    background-color: white;
+    color:#0b3d9a;
+}
+
+.btnStyle{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+
+#secondJumbo{
+  background-color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Bootstrap CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1>WHERE WE CAN CAUSE TROUBLE TODAY?</h1>
+        </div>
+
+        <div class="form-inline">
+            <input type="number" placeholder="# of complaints" class="form-control" id="input-limit">
+
+                <!-- ml-4 means margin left to 4-->
+            <button type="button" class="btn btn-primary ml-3 cityButton" city="BROOKLYN">BROOKLYN</button>
+            <button type="button" class="btn btn-primary ml-3 cityButton" city="MANHATTAN">MANHATTAN</button>
+            <button type="button" class="btn btn-primary ml-3 cityButton" city="QUEENS">QUEENS</button>
+            <button type="button" class="btn btn-primary ml-3 cityButton" city="BRONX">BRONX</button>
+            <button type="button" class="btn btn-primary ml-3 cityButton" city="STATEN ISLAND">STATEN ISLAND</button>
+        </div>
+
+        <ul id="list-complaints" class="list-group mt-5">
+
+
+        </ul>
+
+    </div>
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src='./app.js'></script>
+    
+</body>
+</html>
