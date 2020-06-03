@@ -1,0 +1,15 @@
+.lhs, .rhs{
+    background-color: aquamarine;
+    border: 1px solid blue;
+    min-height: 600px;
+    text-align: center;
+}
+
+.rhs{
+    background-color: bisque;
+    border: 1px solid coral;
+}
+
+#map{
+    min-height: 600px;
+}
